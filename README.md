@@ -1,5 +1,3 @@
-
-```markdown
 # 🚢 Titanic Analysis
 
 **Exploratory Data Analysis (EDA) and survival prediction on the Titanic dataset using Python, data visualization, feature engineering, and machine learning.**
@@ -67,8 +65,7 @@ Evaluation metrics:
 ## 📁 Project Structure
 
 ```
-
-Titanic\_Analysis/
+Titanic_Analysis/
 │
 ├── data/
 │   ├── train.csv
@@ -81,16 +78,15 @@ Titanic\_Analysis/
 ├── src/
 │   ├── preprocess.py
 │   ├── features.py
-│   ├── train\_model.py
+│   ├── train_model.py
 │   └── evaluate.py
 │
 ├── models/
-│   └── saved\_model.pkl
+│   └── saved_model.pkl
 │
 ├── requirements.txt
 └── README.md
-
-````
+```
 
 ---
 
@@ -102,48 +98,35 @@ cd Titanic_Analysis
 
 # Install dependencies
 pip install -r requirements.txt
-````
-
-**requirements.txt** may include:
-
-```
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-joblib
 ```
 
 ---
 
 ## 🚀 Usage
 
-1. Open and run the **EDA notebook** (`notebooks/EDA.ipynb`) for insights and visualizations.
-2. Run **Modeling notebook** (`notebooks/Modeling.ipynb`) or the **training script** (`src/train_model.py`) to train classifiers.
-3. Use `evaluate.py` to view model metrics and confusion matrix.
+1. Open and run the **EDA notebook** (`notebooks/EDA.ipynb`) for insights and visualizations.  
+2. Run **Modeling notebook** (`notebooks/Modeling.ipynb`) or the **training script** (`src/train_model.py`) to train classifiers.  
+3. Use `evaluate.py` to view model metrics and confusion matrix.  
 4. (Optional) Add a Streamlit app for interactive model exploration.
 
 ---
 
 ## 🧾 Results & Findings
 
-Summarize key findings in notebooks:
-
-* Features significantly associated with survival (e.g., gender, class, age group)
-* Model accuracies (e.g., random forest accuracy \~80-85%)
-* Visualizations like survival rates across passenger classes
+- Gender and passenger class are highly correlated with survival.
+- Children and females had higher survival rates.
+- Random Forest and Logistic Regression models achieved ~80-85% accuracy.
+- Visualizations illustrate survival distribution across different features.
 
 ---
 
 ## ✅ Conclusion
 
 This project demonstrates how to:
-
-* Explore and preprocess real-world datasets
-* Engineer meaningful features
-* Build and evaluate machine learning models
-* Provide interpretable visual insights
+- Explore and preprocess real-world datasets
+- Engineer meaningful features
+- Build and evaluate machine learning models
+- Provide interpretable visual insights
 
 ---
 
@@ -155,9 +138,5 @@ This project is licensed under the **MIT License**.
 
 ## 👤 Author
 
-**Montaser778** – passionate about data science and machine learning.
+**Montaser778** – passionate about data science and machine learning.  
 *Titanic data analysis project.*
-
-```
-
-```
